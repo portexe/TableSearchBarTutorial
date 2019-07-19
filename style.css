@@ -1,0 +1,49 @@
+body {
+  background-image: url('bg.jpg');
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  box-shadow: 5px 5px 10px black;
+}
+.app-container {
+  margin: auto;
+  width: 700px;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+.app-container h1 {
+  text-shadow: 3px 3px 5px black;
+}
+table td, table th {
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #fff8e0;}
+table tr:nth-child(odd){background-color: #cae9d3;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #025baf;
+  color: white;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 25px;
+  outline: none;
+  box-shadow: 5px 5px 10px black;
+}
